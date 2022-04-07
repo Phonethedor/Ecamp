@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+
+h2{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.carousel-indicators {
+    top: 105%;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

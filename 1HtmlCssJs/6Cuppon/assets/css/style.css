@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.radio{
+    border-radius: 10;
+}
+
+.gris{
+    color: #707070;
+}

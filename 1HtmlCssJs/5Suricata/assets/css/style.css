@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rosa{
+    background-color: #E83E8C;
+}
+
+.img-logo{
+    max-height: 3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pagos{
+    background-color: #17A2B8;
+    color: #ffffff;
+}
+
+i{
+    font-size: 3.5em;
+    width: 2em;
+}
+
+.img-footer{
+    max-height: 14em;
+}

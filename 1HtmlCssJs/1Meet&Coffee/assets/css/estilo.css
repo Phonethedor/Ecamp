@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  text-align: center;
+  color: #000f08;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  position: fixed;
+  background-color: #000f08;
+  /*  opacity: 1; */
+  width: 100vw;
+  font-size: 1.1rem;
+}
+
+nav ul {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono img {
+  filter: invert();
+}
+
+header.index{
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0px 3px 6px #707070;
+  opacity: 1;
+  text-align: right;
+  color: white;
+  padding: 6rem 4rem;   
+}
+
+#ubicacion img {
+  width: 50vw;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.speaker, .charla-texto, .evento {
+  display:inline-block
+}
+
+.speaker {
+  width: 25vw;
+  height: 60%;
+  vertical-align: middle;
+}
+
+.charla-texto{
+  width: 50vw;
+  height: 60%;
+  vertical-align:middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+
+.sweet-brown{
+  text-align:left;
+  background: #A4452C;
+  color: #ffffff;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+
+.evento img{
+  width: 75%;
+}
+
+.evento {
+  width: 30vw;
+}
+
+h1 {
+font-weight: 800;
+font-size:3.75em;
+margin-bottom: 0.25em;
+}
+
+h2{
+font-weight: 700;
+font-size: 2.813em
+}
+
+h3{
+font-weight: 700;
+font-size: 2.5em;
+}
+
+h4{
+font-size: 2.063em
+}
+
+h5{
+font-size: 1.25em;
+}
+
+.subtitulo, h4, h5{
+font-weight: 400;
+}
+
+#ubicacion h2{
+margin: 1em auto;
+}
+
+.sweet-brown h3, .sweet-brown h5{
+margin-bottom: 0.813em;
+}
+
+#eventos h2{
+margin-bottom: 1em;
+}
+
+#eventos h3{
+margin: 1em auto;
+}
+
+#eventos a{
+  text-decoration: none;
+  color:#000f08;
+}
+
+section, footer{
+margin-top: 4.5rem;
+}
+
+footer{
+padding: 6.25rem;
+}
+
+footer i{
+margin: 0 0.25em 0 0.25em;
+}
+
+.oscuro {
+  background: #000f08;
+  color:#ffffff;
+}
+
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.head-blog {
+  padding-top: 6rem;
+  width: 57%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.head-blog h2{
+  padding-bottom: 2rem;
+  font-size: 2.3rem;
+}
+
+.head-blog img {
+  width: 100%;
+
+}
+
+.body-blog {
+  margin:auto;
+width: 57%;
+text-align: left;
+text-align: justify;
+margin: 0 auto;
+
+}
+
+.body-blog p {
+  padding-top: 3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+
+
+.body-blog h4 {
+  padding-top: 3rem;
+  font-weight: 700;
+  font-size: 2rem;
+
+}
