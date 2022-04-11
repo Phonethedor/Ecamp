@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    width: 2em;
+}
+    
+.bg-black{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+hr{
+    color: #17A3B8;
+    border: solid;
+}
+
+.icono{
+    background-color: #17A3B8;
+    text-align: center;
+    display: block;
+}
+
+.imagen-carta{
+    height: 10rem;
+}
