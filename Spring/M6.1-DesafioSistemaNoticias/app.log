@@ -1,0 +1,129 @@
+2022-07-23 22:03:13.224  INFO 1248 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on DESKTOP-469ADSR with PID 1248 (E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias\target\classes started by alvar in E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias)
+2022-07-23 22:03:13.235  INFO 1248 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-23 22:03:13.400  INFO 1248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-23 22:03:13.400  INFO 1248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-23 22:03:15.767  INFO 1248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-23 22:03:15.786  INFO 1248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-23 22:03:15.787  INFO 1248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-23 22:03:15.916  INFO 1248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-23 22:03:15.917  INFO 1248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2514 ms
+2022-07-23 22:03:16.251 DEBUG 1248 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-23 22:03:16.390  INFO 1248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-23 22:03:16.549 DEBUG 1248 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-23 22:03:16.613 DEBUG 1248 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-23 22:03:16.646 DEBUG 1248 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-23 22:03:16.811  INFO 1248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-23 22:03:16.850  WARN 1248 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-07-23 22:03:16.861  INFO 1248 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-23 22:03:16.892  INFO 1248 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-23 22:03:16.950 ERROR 1248 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-23 22:04:04.099  INFO 15524 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on DESKTOP-469ADSR with PID 15524 (E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias\target\classes started by alvar in E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias)
+2022-07-23 22:04:04.101  INFO 15524 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-23 22:04:04.219  INFO 15524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-23 22:04:04.220  INFO 15524 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-23 22:04:06.341  INFO 15524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-07-23 22:04:06.370  INFO 15524 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-23 22:04:06.370  INFO 15524 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-23 22:04:06.487  INFO 15524 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-23 22:04:06.488  INFO 15524 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2266 ms
+2022-07-23 22:04:06.926 DEBUG 15524 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-23 22:04:07.004  INFO 15524 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-23 22:04:07.104 DEBUG 15524 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-23 22:04:07.177 DEBUG 15524 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-23 22:04:07.202 DEBUG 15524 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-23 22:04:07.405  INFO 15524 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-23 22:04:07.467  INFO 15524 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-07-23 22:04:07.486  INFO 15524 --- [restartedMain] com.edutecno.Application                 : Started Application in 4.1 seconds (JVM running for 5.179)
+2022-07-23 22:04:30.948  INFO 14256 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on DESKTOP-469ADSR with PID 14256 (E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias\target\classes started by alvar in E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias)
+2022-07-23 22:04:30.949  INFO 14256 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-23 22:04:31.058  INFO 14256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-23 22:04:31.059  INFO 14256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-23 22:04:33.269  INFO 14256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-07-23 22:04:33.297  INFO 14256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-23 22:04:33.297  INFO 14256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-23 22:04:33.421  INFO 14256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-23 22:04:33.422  INFO 14256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2362 ms
+2022-07-23 22:04:33.865 DEBUG 14256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-23 22:04:33.950  INFO 14256 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-23 22:04:34.064 DEBUG 14256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-23 22:04:34.112 DEBUG 14256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-23 22:04:34.129 DEBUG 14256 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-23 22:04:34.337  WARN 14256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-23 22:04:34.374  WARN 14256 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8099 is already in use
+2022-07-23 22:04:34.383  INFO 14256 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-23 22:04:34.413  INFO 14256 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-23 22:04:34.455 ERROR 14256 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8099 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8099 or configure this application to listen on another port.
+
+2022-07-23 22:05:14.850  INFO 11000 --- [restartedMain] com.edutecno.Application                 : Starting Application using Java 17.0.3 on DESKTOP-469ADSR with PID 11000 (E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias\target\classes started by alvar in E:\Users\alvar\Desktop\Dev\spring\M6.1-DesafioSistemaNoticias)
+2022-07-23 22:05:14.852  INFO 11000 --- [restartedMain] com.edutecno.Application                 : No active profile set, falling back to 1 default profile: "default"
+2022-07-23 22:05:14.947  INFO 11000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-23 22:05:14.947  INFO 11000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-23 22:05:16.593  INFO 11000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2022-07-23 22:05:16.626  INFO 11000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-23 22:05:16.626  INFO 11000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-23 22:05:16.740  INFO 11000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-23 22:05:16.741  INFO 11000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1793 ms
+2022-07-23 22:05:17.039 DEBUG 11000 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-23 22:05:17.099  INFO 11000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-23 22:05:17.169 DEBUG 11000 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-23 22:05:17.198 DEBUG 11000 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-23 22:05:17.212 DEBUG 11000 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-23 22:05:17.355  INFO 11000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-23 22:05:17.417  INFO 11000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2022-07-23 22:05:17.437  INFO 11000 --- [restartedMain] com.edutecno.Application                 : Started Application in 3.254 seconds (JVM running for 4.102)
+2022-07-23 22:05:46.840  INFO 11000 --- [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-23 22:05:46.841  INFO 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-23 22:05:46.842 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-07-23 22:05:46.842 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-07-23 22:05:46.842 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-07-23 22:05:46.844 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@306e6424
+2022-07-23 22:05:46.845 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5a0ae243
+2022-07-23 22:05:46.845 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-07-23 22:05:46.845  INFO 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-07-23 22:05:46.864 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2022-07-23 22:05:46.875 DEBUG 11000 --- [http-nio-8099-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.edutecno.controller.NoticiasController#home(Model)
+2022-07-23 22:05:46.892  INFO 11000 --- [http-nio-8099-exec-1] c.e.controller.NoticiasController        : Se ha leido una linea del archivo
+2022-07-23 22:05:46.892  INFO 11000 --- [http-nio-8099-exec-1] c.e.controller.NoticiasController        : Se ha leido una linea del archivo
+2022-07-23 22:05:46.892  INFO 11000 --- [http-nio-8099-exec-1] c.e.controller.NoticiasController        : Se ha leido una linea del archivo
+2022-07-23 22:05:46.892  INFO 11000 --- [http-nio-8099-exec-1] c.e.controller.NoticiasController        : Se ha leido una linea del archivo
+2022-07-23 22:05:46.892  INFO 11000 --- [http-nio-8099-exec-1] c.e.controller.NoticiasController        : Se ha leido una linea del archivo
+2022-07-23 22:05:46.903 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-07-23 22:05:47.286 DEBUG 11000 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-07-23 22:05:47.913 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2022-07-23 22:05:47.920 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-07-23 22:05:47.924 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-07-23 22:05:47.924 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-07-23 22:05:47.932 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-07-23 22:05:47.935 DEBUG 11000 --- [http-nio-8099-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-07-23 22:05:47.960 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [image/avif, image/webp, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-07-23 22:05:47.962 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Jul 23 22:05:47 CLT 2022, status=404, error=Not Found, message=No message available,  (truncated)...]
+2022-07-23 22:05:48.060 DEBUG 11000 --- [http-nio-8099-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
