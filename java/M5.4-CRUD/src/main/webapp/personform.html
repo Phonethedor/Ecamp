@@ -1,0 +1,129 @@
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<div class="container">
+		<a class="navbar-brand" href="../../../../../../M5.4-CRUD/src/main/webapp/index.jsp"><h1>CRUD</h1></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarNav" aria-controls="navbarNav"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link"
+					href="../../../../../../M5.4-CRUD/src/main/webapp/index.jsp">Inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active"><a class="nav-link" href="../../../../../../M5.4-CRUD/src/main/webapp/addpersonform.jsp">Añadir
+						Persona</a></li>
+				<li class="nav-item"><a class="nav-link" href="listarPersonas">Ver
+						personas</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Formulario -->
+<div class="container border border-white col-sm-12">
+
+	<div class="form-body">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="form-holder">
+					<div class="form-content container mx-5 px-5">
+						<div class="form-items form-body-color">
+							<h3>Añadir Persona</h3>
+							<p>Complete los datos a continuación.</p>
+							<form class="requires-validation" novalidate action="addPerson"
+								method="post">
+
+								<div class="col-md-12 col-sm-12">
+									<input class="form-control" type="text" name="name"
+										placeholder="Nombre completo" required>
+									<div class="valid-feedback">El campo de nombre de usuario
+										es válido!</div>
+									<div class="invalid-feedback">El campo del nombre de
+										usuario no puede estar en blanco!</div>
+								</div>
+
+								<div class="col-md-12 col-sm-12">
+									<input class="form-control" type="email" name="email"
+										placeholder="E-mail" required>
+									<div class="valid-feedback">El campo de correo
+										electrñnico es válido!</div>
+									<div class="invalid-feedback">El campo de correo
+										electrñnico no puede estar en blanco!</div>
+								</div>
+
+								<div class="col-md-12 col-sm-12">
+									<select class="form-select mt-3" name="country" required>
+										<option selected disabled>País</option>
+										<option >Chile</option>
+										<option >Argentina</option>
+										<option >Venezuela</option>
+										<option >Otro</option>
+									</select>
+									<div class="valid-feedback">Seleccionaste un país!</div>
+									<div class="invalid-feedback">Por favor seleccione un
+										país!</div>
+								</div>
+
+
+								<div class="col-md-12 col-sm-12">
+									<input class="form-control" type="password" name="password"
+										placeholder="Password" required>
+									<div class="valid-feedback">El campo de contraseña es
+										vñlido!</div>
+									<div class="invalid-feedback">El campo de la contraseña
+										no puede estar en blanco!</div>
+								</div>
+
+
+								<div class="col-md-12 col-sm-12 mt-3">
+									<label class="mb-3 mr-1" for="gender">Genero: </label> <input
+										type="radio" class="btn-check" name="sex" value="male" id="male"
+										autocomplete="off" required> <label
+										class="btn btn-sm btn-outline-secondary" for="male">Hombre</label>
+
+									<input type="radio" class="btn-check" name="sex" value="female" id="female"
+										autocomplete="off" required> <label
+										class="btn btn-sm btn-outline-secondary" for="female">Mujer</label>
+
+									<input type="radio" class="btn-check" name="sex" value="secret" id="secret"
+										autocomplete="off" required> <label
+										class="btn btn-sm btn-outline-secondary" for="secret">Secreto</label>
+									<div class="valid-feedback mv-up">Seleccionaste un
+										género!</div>
+									<div class="invalid-feedback mv-up">Por favor seleccione
+										un género!</div>
+								</div>
+
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value=""
+										id="invalidCheck" required> <label
+										class="form-check-label">Confirmo que todos los datos
+										son correctos</label>
+									<div class="invalid-feedback">Confirme que todos los
+										datos ingresados son correctos!</div>
+								</div>
+
+
+								<div class="form-button mt-3">
+									<button id="submit" type="submit" class="btn btn-success">
+										Añadir Persona</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<footer
+	class="container-fluid text-center bg-dark text-white py-4 fixed-bottom">
+	<h1>CRUD</h1>
+	<a href="" class="text-white">web site developed by FS-0003 <i
+		class="far fa-registered"></i>
+	</a>
+</footer>
